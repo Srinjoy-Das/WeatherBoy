@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WeatherBoy"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- City Input -->
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Enter city name"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8"
+            android:backgroundTint="#38BDF8"
+            android:inputType="textCapWords"
+            android:padding="16dp"/>
+
+        <!-- Search Button -->
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Weather"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#38BDF8"
+            android:textColor="#FFFFFF"/>
+
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/ivWeatherIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:src="@android:drawable/ic_menu_compass" />
+
+        <!-- Temperature -->
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--°C"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+        <!-- City Name -->
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="24sp"
+            android:textColor="#CBD5E1"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Weather Condition -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather Condition"
+            android:textSize="18sp"
+            android:textColor="#94A3B8"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Humidity -->
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humidity: --%"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Wind Speed -->
+        <TextView
+            android:id="@+id/tvWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wind Speed: -- m/s"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Pressure -->
+        <TextView
+            android:id="@+id/tvPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pressure: -- hPa"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
