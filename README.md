@@ -55,6 +55,7 @@ WeatherBoy is a modern Android weather application built in Java using Retrofit 
 
 ## 🏗️ Architecture
 
+```text
 UI (Activity + XML)
         ↓
 ViewModel
