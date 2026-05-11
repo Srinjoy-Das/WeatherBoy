@@ -34,6 +34,10 @@ WeatherBoy is a modern Android weather application built in Java using Retrofit 
 - Retrieve saved cities even after restarting the app
 - Offline persistence
 
+
+<img width="363" height="635" alt="image" src="https://github.com/user-attachments/assets/22574d60-fe90-4b20-ae40-66c995487e9c" />
+<img width="356" height="645" alt="image" src="https://github.com/user-attachments/assets/ba5a7309-3399-4f6d-ac6a-9c5d9f164ac2" />
+
 ---
 
 ## 🛠️ Tech Stack
